@@ -1,4 +1,4 @@
-# DSI_codes
+# DSI\_codes
 Codes for Tatsuya Haga, Yohei Oseki, Tomoki Fukai, "A unified neurocomputational model for spatial and linguistic representations"
 
 ## Dependency
@@ -31,10 +31,10 @@ Preprocessing codes for Figure 4, 5, and 6.
 ## DSI\_word\_embedding
 Main codes for Figure 4, 5, and 6. 
 
-1. Download WS353 dataset at http://alfonseca.org/eng/research/wordsim353.html and Mikolov's dataset at https://aclweb.org/aclwiki/Google_analogy_test_set_(State_of_the_art) . Put them in "dataset_eval" directory.
+1. Download WS353 dataset at http://alfonseca.org/eng/research/wordsim353.html and Mikolov's dataset at https://aclweb.org/aclwiki/Google_analogy_test_set_(State_of_the_art) . Put them in `dataset_eval` directory.
 
-2. Execute "bash batch.sh" in each directory. Outputs are figures and txt files in which TOP-10 words for each unit and quantitative values are written. Run time was approximately 1 hour for each condition. 
+2. Execute `bash batch.sh` in each directory. Outputs are figures and txt files in which TOP-10 words for each unit and quantitative values are written. Run time was approximately 1 hour for each condition. 
 
 3. Codes for GLoVe were not included. Apply codes at https://github.com/stanfordnlp/GLoVe to `enwiki_filtered_1d.txt`, and put an output file `vectors.txt` in the directory `glove_eval`.Then execute `bash batch.sh` in `glove_eval`. 
 
-4. "result_summary" is for plotting a summary of all methods. We put data that we plotted in the article.
+4. `result_summary` is for plotting a summary of all methods. We put data that we plotted in the article.
