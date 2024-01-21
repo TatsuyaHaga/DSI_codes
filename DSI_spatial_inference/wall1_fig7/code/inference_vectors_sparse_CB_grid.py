@@ -13,8 +13,7 @@ Ns = int(rep.shape[0]/3)
 
 Nelem = int(sys.argv[4])
 
-gridness = numpy.loadtxt(sys.argv[5], delimiter=",")
-isgrid = gridness>0
+isgrid = numpy.loadtxt(sys.argv[5], delimiter=",")>0
 isnongrid = numpy.logical_not(isgrid)
 
 rep_A = rep[:Ns,:]

@@ -7,11 +7,13 @@ import sys
 context = sys.argv[1]
 rep=numpy.loadtxt(sys.argv[2], delimiter=",")
 Ns = int(rep.shape[0]/3)
+#if rep.shape[0] != 2*Ns:
+#    print(f"Number of states did not match {rep.shape[0]}!={3*Ns}")
+#    exit()
 
 Nelem = int(sys.argv[4])
 
-gridness = numpy.loadtxt(sys.argv[5], delimiter=",")
-isgrid = gridness>0
+isgrid = numpy.loadtxt(sys.argv[5], delimiter=",")>0
 isnongrid = numpy.logical_not(isgrid)
 
 rep_A = rep[:Ns,:]
