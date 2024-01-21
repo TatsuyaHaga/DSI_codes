@@ -1,4 +1,4 @@
-name: cupy_nlp
+name: DSI
 channels:
   - conda-forge
 dependencies:
@@ -13,5 +13,5 @@ dependencies:
   - scipy=1.10.0
   - pandas=1.5.2
   - scikit-learn=1.2.2
-  - pip:
-      - cupy-cuda12x==12.0.0
+  - scikit-image=0.22.0
+  - cupy=12.0.0
