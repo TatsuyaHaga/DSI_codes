@@ -17,7 +17,7 @@ We note that parallel processing of 12 - 16 threads runs in the codes.
 Codes for Figure 2 and 3. Execute `bash batch_all.sh` in each directory, or manually execute individual commands in shell scripts. Outputs are figures and txt files in which quantitative values are written. Run time was several minutes.
 
 ## DSI\_spatial\_inference
-Codes for Figure 7. In a directory `code`, execute `bash batch_sim_barrierswitch.sh` which initiates several background simulation processes. After all processes finish, execute `bash batch_all.sh`. Run time was about 1 hour per simulation. To obtain statistical results, execute `copy_multitrial.sh` and then repeat five simulations in five copied directories. After finishing simulations, `python result_summary_all.py` generates summarized reults.
+Codes for Figure 7. To obtain results, execute `batch_multitrial.sh`. Five simulations are repeated and summarized by batch_multitrial.sh. Run time was about 1 hour per simulation. 
 
 ## text\_data\_preprocessing
 Preprocessing codes for Figure 4, 5, and 6.
