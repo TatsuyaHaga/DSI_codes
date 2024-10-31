@@ -13,8 +13,8 @@ An environment of Anaconda/Miniconda is given by a file `env_DSI.yml`.
 
 We note that parallel processing of 12 - 16 threads runs in the codes.
 
-## DSI\_2Dspace
-Codes for Figure 2 and 3. Execute `bash batch_all.sh` in each directory, or manually execute individual commands in shell scripts. Outputs are figures and txt files in which quantitative values are written. Run time was several minutes.
+## DSI\_2Dspace, DSI\_maze
+Codes for Figure 2 and 3, and Figure S15. Execute `bash batch_all.sh` in each directory, or manually execute individual commands in shell scripts. Outputs are figures and txt files in which quantitative values are written. Run time was several minutes.
 
 ## DSI\_spatial\_inference
 Codes for Figure 7. To obtain results, execute `batch_multitrial.sh`. Five simulations are repeated and summarized by batch_multitrial.sh. Run time was about 1 hour per simulation. 
